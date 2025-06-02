@@ -59,6 +59,26 @@ s0.parentNode.insertBefore(s1,s0);
  <script  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJ+YXmQjv0Gc4kX2Xrj7lj9VY3lGq5EDh9Vyg=" crossorigin="anonymous"></script>
  <!--  User Way for EYEAble -->
  <script src="https://cdn.userway.org/widget.js" data-account="7z8epbBVBb"></script>
+ <!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
   </head>
   <body>
     <div id="root"></div>
