@@ -8,7 +8,7 @@
 // -----------------------------------------------------------------------------
 // Base Styles (Grundlegende Styles)
 // -----------------------------------------------------------------------------
-@import './base/_reset,scss';
+@import './base/_reset.scss';
 @import './base/_typography.scss';
 @import './base/_base.scss';
 
@@ -18,7 +18,7 @@
 @import './layout/_grid.scss';
 @import './layout/_header.scss';
 @import './layout/_footer.scss';
-@import './layout/sidebar';
+@import './layout/_sidebar.scss';
 
 // -----------------------------------------------------------------------------
 // Components (Wiederverwendbare UI-Elemente)
@@ -41,7 +41,7 @@
 // -----------------------------------------------------------------------------
 // Vendors (Externe Bibliotheken)
 // -----------------------------------------------------------------------------
-@import './vendors/_swiper,scss';
+@import './vendors/_swiper.scss';
 
 // -----------------------------------------------------------------------------
 // Animations
