@@ -1,0 +1,86 @@
+/* =========================
+   Layout.css
+   Layoutstruktur und Grids
+   ========================= */
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section Padding */
+.section {
+  padding: 4rem 0;
+}
+
+.section-sm {
+  padding: 2rem 0;
+}
+
+.section-lg {
+  padding: 6rem 0;
+}
+
+/* Grid System */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.col {
+  flex: 1 1 0%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+/* Column widths (example 12-column grid) */
+.col-1 { width: 8.3333%; }
+.col-2 { width: 16.6667%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.3333%; }
+.col-5 { width: 41.6667%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.3333%; }
+.col-8 { width: 66.6667%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.3333%; }
+.col-11 { width: 91.6667%; }
+.col-12 { width: 100%; }
+
+/* Flex Utilities */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  [class^="col-"] {
+    width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Global Stylesheet – style.css
+   Importiert alle CSS-Strukturen modular
+   ========================================================================== */
+
+/* === Abstracts & Variables === */
+@import url('./variables.css');
+
+/* === Base Styles === */
+@import url('./base.css');
+@import url('./typography.css');
+
+/* === Layout === */
+@import url('./layout.css');
+
+/* === Components === */
+@import url('./components.css');
+
+/* === Animations === */
+@import url('./animations.css');
+
+/* === Utilities (falls vorhanden) === */
+/* @import url('./utilities.css'); */
+
+/* === Custom Global Overrides === */
+html, body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: black;
+  font-family: "CircularStd" sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Optional: Utility helper class */
+.hidden {
+  display: none !important;
+}

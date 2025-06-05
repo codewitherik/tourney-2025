@@ -1,0 +1,23 @@
+/* ================================
+   index.css – Zentrale Style-Importe
+   ================================ */
+
+/* Variablen (z. B. Farben, Abstände) */
+@import './variables.css';
+
+/* Basis-Styles (Reset, Grundformatierungen) */
+@import './base.css';
+
+/* Typografie */
+@import './typography.css';
+
+/* Layout-System (Grid, Container, Spacing) */
+@import './layout.css';
+
+/* Komponenten (Buttons, Cards, Modals etc.) */
+@import './components.css';
+
+/* Animationen (Transitions, Keyframes etc.) */
+@import './animations.css';
+
+@import './style.css';

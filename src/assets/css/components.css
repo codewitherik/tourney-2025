@@ -1,0 +1,140 @@
+/* ================================
+   Components.css – UI Components Styles
+   ================================ */
+
+/* === Buttons === */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.btn-secondary:hover {
+  background-color: #d1d5db;
+}
+
+/* === Cards === */
+.card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* === Modals === */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* === Navbar === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111827;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* === Alerts === */
+.alert {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.alert-success {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.alert-error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.alert-warning {
+  background-color: #fef9c3;
+  color: #92400e;
+}
+
+/* === Badges === */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-info {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.badge-success {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.badge-error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
