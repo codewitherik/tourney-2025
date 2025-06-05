@@ -1,33 +1,49 @@
-// Abstracts
-@import 'abstracts/_variables';
-@import 'abstracts/_mixins';
-@import 'abstracts/_functions';
+// -----------------------------------------------------------------------------
+// Abstracts (Variablen, Mixins, Funktionen)
+// -----------------------------------------------------------------------------
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
 
-// Base styles
+// -----------------------------------------------------------------------------
+// Base Styles (Grundlegende Styles)
+// -----------------------------------------------------------------------------
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/base';
 
-// Layout
+// -----------------------------------------------------------------------------
+// Layout (Seitenaufbau)
+// -----------------------------------------------------------------------------
+@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/grid';
 @import 'layout/sidebar';
 
-// Components
+// -----------------------------------------------------------------------------
+// Components (Wiederverwendbare UI-Elemente)
+// -----------------------------------------------------------------------------
 @import 'components/buttons';
-@import 'components/navbar';
 @import 'components/cards';
 @import 'components/modal';
+@import 'components/navbar';
 
-// Pages
+// -----------------------------------------------------------------------------
+// Pages (Seiten-spezifisches Styling)
+// -----------------------------------------------------------------------------
 @import 'pages/home';
 
-// Themes
+// -----------------------------------------------------------------------------
+// Themes (Farbthemen, Dark/Light Modes)
+// -----------------------------------------------------------------------------
 @import 'themes/default';
 
-// Vendors
+// -----------------------------------------------------------------------------
+// Vendors (Externe Bibliotheken)
+// -----------------------------------------------------------------------------
 @import 'vendors/swiper';
 
+// -----------------------------------------------------------------------------
 // Animations
-@import 'animations';
+// -----------------------------------------------------------------------------
+@import 'animations/animations';
