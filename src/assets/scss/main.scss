@@ -1,49 +1,49 @@
 // -----------------------------------------------------------------------------
 // Abstracts (Variablen, Mixins, Funktionen)
 // -----------------------------------------------------------------------------
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
+@import './abstracts/_variables.scss';
+@import './abstracts/_functions.scss';
+@import './abstracts/_mixins.scss';
 
 // -----------------------------------------------------------------------------
 // Base Styles (Grundlegende Styles)
 // -----------------------------------------------------------------------------
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/base';
+@import './base/_reset,scss';
+@import './base/_typography.scss';
+@import './base/_base.scss';
 
 // -----------------------------------------------------------------------------
 // Layout (Seitenaufbau)
 // -----------------------------------------------------------------------------
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
+@import './layout/_grid.scss';
+@import './layout/_header.scss';
+@import './layout/_footer.scss';
+@import './layout/sidebar';
 
 // -----------------------------------------------------------------------------
 // Components (Wiederverwendbare UI-Elemente)
 // -----------------------------------------------------------------------------
-@import 'components/buttons';
-@import 'components/cards';
-@import 'components/modal';
-@import 'components/navbar';
+@import './components/_button.scss';
+@import './components/_cards.scss';
+@import './components/_modal.scss';
+@import './components/_navbar.scss';
 
 // -----------------------------------------------------------------------------
 // Pages (Seiten-spezifisches Styling)
 // -----------------------------------------------------------------------------
-@import 'pages/home';
+@import './pages/_home.scss';
 
 // -----------------------------------------------------------------------------
 // Themes (Farbthemen, Dark/Light Modes)
 // -----------------------------------------------------------------------------
-@import 'themes/default';
+@import './themes/_default.scss';
 
 // -----------------------------------------------------------------------------
 // Vendors (Externe Bibliotheken)
 // -----------------------------------------------------------------------------
-@import 'vendors/swiper';
+@import './vendors/_swiper,scss';
 
 // -----------------------------------------------------------------------------
 // Animations
 // -----------------------------------------------------------------------------
-@import 'animations/animations';
+@import './animations/_animations.scss';
