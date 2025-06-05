@@ -1,7 +1,7 @@
 // Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'abstracts/functions';
+@import 'abstracts/_variables';
+@import 'abstracts/_mixins';
+@import 'abstracts/_functions';
 
 // Base styles
 @import 'base/reset';
@@ -15,7 +15,7 @@
 @import 'layout/sidebar';
 
 // Components
-@import 'components/buttons';
+@import 'components/_buttons';
 @import 'components/navbar';
 @import 'components/cards';
 @import 'components/modal';
