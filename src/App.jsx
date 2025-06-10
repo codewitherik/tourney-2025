@@ -1,12 +1,10 @@
-import ChatWidget from "@/components/ChatWidget";
+import { Toaster } from "react-hot-toast"
 
 function App() {
   return (
     <>
-      {/* dein Seiteninhalt */}
-      <ChatWidget />
+      <SignupForm />
+      <Toaster position="top-right" />
     </>
-  );
+  )
 }
-
-
