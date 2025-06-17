@@ -2,25 +2,6 @@
 
  ## Essentials Stuffs
 
- 1.1 Cuatom Pingback
-
- 1.2 Custom googletagmanager
-
- 1.3 Custom Global Styles
-
- 1.4 Custom Cache
-
- 1.5 omebend json und xml
-
- 1.6 googleads
-
- 1.7 brevo conversitions free or not free
-
- 1.8 Chat Buttom
-
- 1.9 connect FaceBook
-
- 1.10 Google Anayltics
 
  1.11 Webpack Runtime 
 

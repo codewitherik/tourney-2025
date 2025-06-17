@@ -1,0 +1,28 @@
+::-webkit-input-placeholder {
+    color: #a3a9ac;
+    font-weight: 500;
+}
+
+::-moz-placeholder {
+    color: #a3a9ac;
+    font-weight: 500;
+}
+
+::-ms-input-placeholder {
+    color: #a3a9ac;
+    font-weight: 500;
+}
+
+::-moz-placeholder {
+    color: #a3a9ac;
+    font-weight: 500;
+}
+
+.modalContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
