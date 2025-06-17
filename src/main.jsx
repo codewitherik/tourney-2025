@@ -6,6 +6,7 @@ import './assets/css/layout.css';
 import './assets/css/animations.css';
 import './assets/css/components.css';
 import './assets/scss/main.scss';
+import './index.css';
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
