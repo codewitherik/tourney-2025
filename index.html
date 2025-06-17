@@ -1,14 +1,97 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-react-helmet="lang">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tourney Turnierplaner -- Erstelle kostenlos deine Turniere</title>
-     <!-- Userway EYE Able Link-->
-    <script src="https://cdn.userway.org/widget.js" data-account="7z8epbBVBb"></script>
-  </head>
+    <!-- Custom Author and Designer Tags-->
+     <meta name="generator" content="REACT TAILWIND und andere custom">
+     <meta name="author" content="Alexander Paul, dotdivlearn">
+     <meta name="author" content="REPLIT AI">
+     <meta name="designer" content="codewitherik, Erik Schmidt"> 
+    <title>Tourney Turnierplaner - Erstelle kostenlos deine Turniere</title>
+    <!-- Diese Seite ist optimiert mit dem Erik Schmict SEO Pro Plugin 1.0.0-->
+     <!-- Custom Favicon SVG -->
+      <link data-react-helmet="true" rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+      <link data-react-helmet="true" rel="apple-touch-icon" href="./public/apple-touch-icon.png" type="image/png">
+      <link data-react-helmet="true" rel="icon" href="./public/favicon-32x32.png" type="image/png">
+      <link data-react-helmet="true" rel="mask icon" href="./public/favicon-16x16.png" type="image/png" color="#ff400">
+      <!-- Custom Canonical-->
+      <link data-react-helmet="true" rel="canonical" href="#">
+      <!-- Custom Alternate Link-->
+      <link data-react-helmet="true" rel="alternate" href="#">
+      <!-- Cuatom meta Tags-->
+       <meta data-react-helmet="true" name="keywords" content="Turnierplaner, Tourney, 2025">
+       <meta data-react-helmet="true" name="description" content="Mit Tourney erstellst du  kostenlos und plane deine Turniere">
+       <meta data-react-helmet="true" name="robots" content="index, follow">
+       <!-- custom OG Tags-->
+        <meta data-react-helmet="true" property="og:type" content="website" />
+        <meta data-react-helmet="true" property="og:title" content="Tourney Turnierplaner" />
+        <meta data-react-helmet="true" property="og:description" content="Mit Tourney erstellst du  kostenlos und plane deine Turniere" />
+        <meta data-react-helmet="true" property="og:url" content="#" />
+        <meta data-react-helmet="true" property="og:image" content="./public/facvicon.ico" />
+        <meta data-react-helmet="true" property="og:site name" content="Tourney Turnierplaner" />
+        <meta data-react-helmet="true" property="og:locale" content="DE_de" />
+        <!-- Custom Theme Color-->
+        <meta data-react-helmet="true" name="theme-color" content="#fff">
+        <!-- Custom Animate CSS-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- Cusatom Magnific Popup CSS LINK-->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <!-- Swiper CSS and JS-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <!-- Fontawesome link-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css" integrity="sha512-8hM9a+2hrLBhOuB3uiy+QIXBsu6Qk+snsP1CboFQW6pdt/yYz0IcDp/+CGv5m39r9doGUc/zw6aBpyLF6XFgzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" integrity="sha512-DzC7h7+bDlpXPDQsX/0fShhf1dLxXlHuhPBkBo/5wJWRoTU6YL7moeiNoej6q3wh5ti78C57Tu1JwTNlcgHSjg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- Custom Jquery JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+             <!-- / Yoast SEO plugin. -->
+            <!-- Custom Google Font lINK-->
+             <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+             <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+             <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+             <link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+             <!-- Custom Eyeabele userway-->
+             <script src="https://cdn.userway.org/widget.js" data-account="7z8epbBVBb"></script>
+             <!-- Google Tag Manager -->
+             <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+             })(window,document,'script','dataLayer','GTM-T66VZV4Z');</script>
+             <!-- End Google Tag Manager -->
+           <!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '68516228c9186f265607ed32';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+
+
+ </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- Custom Jquery Smartmenus js-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.2.1/jquery.smartmenus.min.js" integrity="sha512-l41a9t1Irxj+b01Af26sz1sD3u+xChHXYsGErFqK2R4ECNn6Vr4k/DoNsxwwnM8aN7nz11ym6rf6Wm3B9ureAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.2.1/css/sm-core-css.min.css" integrity="sha512-rVRcYTea++T0lGttML4Husq23ZzWv5+VqT0Y0zDJ/K9QXff3SL9u2VhklIrptguNEjfW+TzOKLERgEBNRn+JNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Custom Google Reacaptcha-->
+      <script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;ver=3.25.5" id="elementor-recaptcha_v3-api-js"></script>
+     <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T66VZV4Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
   </body>
 </html>
